@@ -1,0 +1,41 @@
+{
+  "app": {
+    "id": "mypoints-queue-system",
+    "name": "MyPoints Phát Số Thứ Tự",
+    "version": "1.0.0",
+    "description": "Hệ thống quản lý số thứ tự cho các sự kiện",
+    "icon": "https://via.placeholder.com/192x192?text=MyPoints",
+    "category": "utilities",
+    "permissions": [
+      "camera",
+      "location"
+    ]
+  },
+  "pages": [
+    {
+      "path": "/",
+      "title": "Danh sách số thứ tự",
+      "file": "app.html"
+    },
+    {
+      "path": "/detail",
+      "title": "Chi tiết số thứ tự",
+      "file": "detail-app.html"
+    }
+  ],
+  "server": {
+    "host": "localhost",
+    "port": 8000,
+    "protocol": "http"
+  },
+  "zalo": {
+    "appId": "YOUR_ZALO_APP_ID",
+    "appSecret": "YOUR_ZALO_APP_SECRET",
+    "redirectUri": "http://localhost:8000/callback",
+    "scope": [
+      "profile",
+      "phone"
+    ]
+  }
+}
+

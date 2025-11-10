@@ -1,0 +1,23 @@
+{
+  "name": "mypoints-zalo-mini-app",
+  "version": "1.0.0",
+  "description": "MyPoints Phát Số Thứ Tự - Zalo Mini App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "npx http-server -p 8000 -c-1"
+  },
+  "keywords": [
+    "zalo",
+    "mini-app",
+    "queue",
+    "mypoints"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
+

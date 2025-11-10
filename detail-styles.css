@@ -1,0 +1,166 @@
+.detail-content {
+    padding: 30px 20px;
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: opacity 0.3s;
+}
+
+.back-btn:hover {
+    opacity: 0.8;
+}
+
+/* QR Code Section */
+.qr-section {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.qr-section h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.qr-section > p {
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.qr-code {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.qr-code svg {
+    width: 100%;
+    height: 100%;
+}
+
+/* Queue Number Section */
+.queue-number-section {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 8px;
+    color: white;
+}
+
+.queue-number-section p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
+.queue-number {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* Details Section */
+.details-section {
+    margin-bottom: 40px;
+}
+
+.detail-item {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 4px solid #667eea;
+}
+
+.detail-item .icon {
+    font-size: 24px;
+    min-width: 30px;
+    text-align: center;
+}
+
+.detail-item .label {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.detail-item .value {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+/* User Info Section */
+.user-info-section {
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border-top: 2px solid #e0e0e0;
+}
+
+.info-item {
+    margin-bottom: 20px;
+}
+
+.info-item:last-child {
+    margin-bottom: 0;
+}
+
+.info-item .label {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.info-item .value {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .detail-content {
+        padding: 20px 15px;
+    }
+
+    .queue-number {
+        font-size: 36px;
+    }
+
+    .qr-code {
+        width: 150px;
+        height: 150px;
+    }
+
+    .detail-item {
+        gap: 12px;
+        padding: 15px;
+    }
+
+    .detail-item .icon {
+        font-size: 20px;
+    }
+}
+
